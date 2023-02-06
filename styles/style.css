@@ -1,0 +1,33 @@
+
+.left {
+  background-image: url("../images/halie-west.jpg");
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 40vw;
+  height: 50vw;
+}
+
+.logo{
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+
+}
+
+img {
+  height: 100px;
+}
+
+h1{
+  font-family: Norse;
+  color: aliceblue;
+  font-size: 100px;
+}
+
+.left p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.575);
+  bottom: 0px;
+  right: 5px;
+}
+
