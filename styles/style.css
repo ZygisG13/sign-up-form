@@ -64,7 +64,8 @@ h1{
 .right {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  height: 100vh;
+  justify-content: center;
 }
 
 .text {
@@ -111,7 +112,32 @@ form {
   flex-flow: column wrap;
   width: 40%;
   gap: 5px;
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   text-transform: uppercase;
   opacity: 80%;
+}
+
+.confirmation {
+  margin-top: 5px;
+  padding: 16px;
+  height: 250px;
+  background-color:whitesmoke;
+}
+
+button[type='submit'] {
+  background-color: #596D48;
+  color: #fff;
+  border: none;
+  padding: .8rem 1.3rem;
+  font-size: 1.3rem;
+  border-radius: 10px;
+}
+
+button[type='submit']:hover {
+  background-color: gray;
+}
+
+a {
+  text-decoration: none;
+  color: #596D48;
 }
