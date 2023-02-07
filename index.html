@@ -25,48 +25,44 @@
           </p>
           <p>You <em>know</em> you want to.</p>
         </div>
-        <div class="form">
+        <div class="my-form">
           <p>Let's do this!</p>
           <form action="example.com/path" method="post">
-            <label for="first_name">First Name</label>
-            <input type="text" id="first_name" />
-            <label for="last_name">Last Name</label>
-            <input type="text" id="last_name" />
-            <label for="user_email">Email Address</label>
-            <input type="email" id="user_email" name="email" placeholder="you@example.com" />
-            <label for="phonenumber"
-              >Phone Number
+            <div class="input">
+              <label for="first-name">First name</label>
+              <input type="text" name="first-name" id="first-name" required />
+            </div>
+
+            <div class="input">
+              <label for="last-name">Last name</label>
+              <input type="text" name="last-name" id="last-name" />
+            </div>
+
+            <div class="input">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+
+            <div class="input">
+              <label for="phone-number">Phone number</label>
               <input
-                type="number"
-                id="phone_number"
-                name="phone_number"
-                required
-                pattern="[0-9]{10}"
+                type="text"
+                name="phone-number"
+                id="phone-number"
+                minlength="9"
+                maxlength="9"
               />
-              <div id="tel-error" class="error"></div>
-            </label>
-            <label for="password"
-              >Password
-              <input
-                type="password"
-                id="password"
-                name="password"
-                required
-                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-              />
-              <div id="password-error" class="error"></div>
-            </label>
-            <label for="passwordC"
-              >Confirm Password
-              <input
-                type="password"
-                id="passwordC"
-                name="passwordC"
-                required
-                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-              />
-              <div id="passwordC-error" class="error"></div>
-            </label>
+            </div>
+
+            <div class="input">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" required />
+            </div>
+
+            <div class="input">
+              <label for="confirm-password">Confirm password</label>
+              <input type="password" name="confirm-password" id="confirm-password" required />
+            </div>
           </form>
         </div>
         <div class="confirmation">
