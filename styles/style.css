@@ -61,3 +61,23 @@ h1{
   color: rgba(255, 255, 255, 0.575);
 }
 
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text {
+  font-size: larger;
+  font-weight: 500;
+  background-color:whitesmoke;
+  height: 33vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px;
+}
+
+.huge-text {
+  width: 50vw;
+}
