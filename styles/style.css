@@ -124,13 +124,9 @@ input{
   border-radius: 5px;
 }
 
-input:invalid {
-  border-color: red;
-}
-
-input:valid {
-  
-  border-color: green;
+.error {
+  font-size: smaller;
+  color: red;
 }
 
 .confirmation {
